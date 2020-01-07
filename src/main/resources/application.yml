@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8090
+
+logging:
+  file:
+    name: dockerlog.log
+spring:
+  redis:
+    host: 192.168.56.101
+    port: 6379
+    timeout: 5
+    password: 123456
