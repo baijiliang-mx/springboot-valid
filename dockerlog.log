@@ -1,37 +1,17 @@
-2019-12-27 14:29:02.984  INFO 19940 --- [main] c.d.d.d.DockerPackageApplication         : Starting DockerPackageApplication on baijiliang with PID 19940 (D:\idea2019\projects\docker-package\target\classes started by john in D:\idea2019\projects\docker-package)
-2019-12-27 14:29:03.083  INFO 19940 --- [main] c.d.d.d.DockerPackageApplication         : The following profiles are active: dev
-2019-12-27 14:29:05.732  INFO 19940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-12-27 14:29:05.737  INFO 19940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2019-12-27 14:29:05.805  INFO 19940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
-2019-12-27 14:29:06.668  INFO 19940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
-2019-12-27 14:29:06.686  INFO 19940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-27 14:29:06.687  INFO 19940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2019-12-27 14:29:06.897  INFO 19940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-27 14:29:06.899  INFO 19940 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3623 ms
-2019-12-27 14:29:08.054  INFO 19940 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-12-27 14:29:08.777  INFO 19940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
-2019-12-27 14:29:08.782  INFO 19940 --- [main] c.d.d.d.DockerPackageApplication         : Started DockerPackageApplication in 7.294 seconds (JVM running for 11.996)
-2019-12-27 14:29:59.458  INFO 19940 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-12-27 14:29:59.458  INFO 19940 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-12-27 14:29:59.468  INFO 19940 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-12-27 14:39:52.114  INFO 19940 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-12-27 14:40:05.898  INFO 20176 --- [main] c.d.d.d.DockerPackageApplication         : Starting DockerPackageApplication on baijiliang with PID 20176 (D:\idea2019\projects\docker-package\target\classes started by john in D:\idea2019\projects\docker-package)
-2019-12-27 14:40:05.905  INFO 20176 --- [main] c.d.d.d.DockerPackageApplication         : The following profiles are active: dev
-2019-12-27 14:40:07.533  INFO 20176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-12-27 14:40:07.536  INFO 20176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2019-12-27 14:40:07.621  INFO 20176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
-2019-12-27 14:40:09.030  INFO 20176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
-2019-12-27 14:40:09.094  INFO 20176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-27 14:40:09.095  INFO 20176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2019-12-27 14:40:09.435  INFO 20176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-27 14:40:09.436  INFO 20176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3375 ms
-2019-12-27 14:40:10.495  INFO 20176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-12-27 14:40:11.150  INFO 20176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
-2019-12-27 14:40:11.154  INFO 20176 --- [main] c.d.d.d.DockerPackageApplication         : Started DockerPackageApplication in 6.506 seconds (JVM running for 10.952)
-2019-12-27 14:40:29.023  INFO 20176 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-12-27 14:40:29.023  INFO 20176 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-12-27 14:40:29.040  INFO 20176 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
-2019-12-27 14:40:29.327  WARN 20176 --- [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors
-Field error in object 'user' on field 'id': rejected value [500]; codes [Max.user.id,Max.id,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.id,id]; arguments []; default message [id],100]; default message [最大是100]
-Field error in object 'user' on field 'name': rejected value [null]; codes [NotNull.user.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.name,name]; arguments []; default message [name]]; default message [名称不能为空]]
-2019-12-27 14:48:28.380  INFO 20176 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-26 15:31:11.579  INFO 20140 --- [main] c.d.d.d.DockerPackageApplication         : Starting DockerPackageApplication on baijiliang with PID 20140 (D:\idea2019\projects\docker-package\target\classes started by john in D:\idea2019\projects\docker-package)
+2020-01-26 15:31:11.736  INFO 20140 --- [main] c.d.d.d.DockerPackageApplication         : The following profiles are active: dev
+2020-01-26 15:31:13.131  INFO 20140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-26 15:31:13.136  INFO 20140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-26 15:31:13.192  INFO 20140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-01-26 15:31:13.881  INFO 20140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-01-26 15:31:13.894  INFO 20140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-26 15:31:13.894  INFO 20140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-26 15:31:14.041  INFO 20140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-26 15:31:14.042  INFO 20140 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2192 ms
+2020-01-26 15:31:14.433  INFO 20140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-26 15:31:15.553  INFO 20140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-01-26 15:31:15.560  INFO 20140 --- [main] c.d.d.d.DockerPackageApplication         : Started DockerPackageApplication in 5.228 seconds (JVM running for 14.205)
+2020-01-26 15:32:03.634  INFO 20140 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-26 15:32:03.635  INFO 20140 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-26 15:32:03.648  INFO 20140 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-01-26 15:33:04.021  INFO 20140 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
