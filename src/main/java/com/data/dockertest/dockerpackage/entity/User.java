@@ -3,8 +3,6 @@ package com.data.dockertest.dockerpackage.entity;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-
 public class User {
     @Max(value = 100,message = "最大是100")@Min(value = 10,message ="最小是10")
     private Integer id;
